@@ -32,8 +32,8 @@ Le code configure le STM32F407VGT6 pour :
 
 ## Prérequis
 
-- Un environnement de développement pour STM32 (par exemple, STM32CubeIDE).
-- Un module Bluetooth (par exemple, HC-05 ou HC-06) pour la communication avec le smartphone.
+- Un environnement de développement pour STM32, tel que **CoIDE de CooCox**.
+- Un module Bluetooth HC-06 pour la communication avec le smartphone.
 - Un smartphone avec une application pour recevoir et afficher les valeurs envoyées par l'USART via Bluetooth.
 
 ## Fonctionnement
@@ -46,7 +46,7 @@ Le code configure le STM32F407VGT6 pour :
 
 ## Compilation et Téléversement
 
-1. Ouvrir le projet dans STM32CubeIDE.
+1. Ouvrir le projet dans **CoIDE de CooCox**.
 2. Vérifier que les fichiers de configuration du microcontrôleur sont correctement configurés.
 3. Compiler le projet.
 4. Connecter le STM32F407VGT6 à votre PC via un programmateur ST-Link.
@@ -56,5 +56,3 @@ Le code configure le STM32F407VGT6 pour :
 
 - **EXTI0_IRQHandler** : Gère l'interruption externe du bouton connecté à PA0 pour activer ou désactiver le Timer2.
 - **ADC_IRQHandler** : Gère l'interruption ADC pour lire les valeurs des canaux ADC et ajuster les rapports cycliques PWM en fonction des valeurs lues.
-
-
