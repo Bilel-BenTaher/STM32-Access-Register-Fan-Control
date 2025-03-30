@@ -1,3 +1,4 @@
+
 # Contrôle de Ventilateurs avec STM32F407VGT6 via Bluetooth
 
 Ce projet utilise un microcontrôleur STM32F407VGT6 pour lire les valeurs d'un potentiomètre via ADC et les utiliser pour commander des ventilateurs via des signaux PWM. Les données sont envoyées à un smartphone via une communication Bluetooth, et un bouton permet d'activer ou de désactiver le système. **Le code est écrit en utilisant l'accès direct aux registres** du microcontrôleur, sans l'utilisation de bibliothèques HAL ou CMSIS.
@@ -60,6 +61,6 @@ Le code configure le STM32F407VGT6 pour :
 ## Vidéo de démonstration
 
 ```md
-![Démonstration du projet](Vidéo/video.mp4)
+https://github.com/user-attachments/assets/3541e8af-1954-4dc4-a225-93c6d7668dc4
 ```
 
