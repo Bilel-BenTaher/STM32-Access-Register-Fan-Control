@@ -62,6 +62,6 @@ Le code configure le STM32F407VGT6 pour :
 Ajoutez votre vidéo localement avec le format suivant :
 
 ```md
-![Démonstration du projet](vidéo/video.mp4)
+![Démonstration du projet](Vidéo/video.mp4)
 ```
 
