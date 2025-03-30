@@ -56,3 +56,12 @@ Le code configure le STM32F407VGT6 pour :
 
 - **EXTI0_IRQHandler** : Gère l'interruption externe du bouton connecté à PA0 pour activer ou désactiver le Timer2.
 - **ADC_IRQHandler** : Gère l'interruption ADC pour lire les valeurs des canaux ADC et ajuster les rapports cycliques PWM en fonction des valeurs lues.
+
+## Vidéo de démonstration
+
+Ajoutez votre vidéo localement avec le format suivant :
+
+```md
+![Démonstration du projet](vidéo/video.mp4)
+```
+
