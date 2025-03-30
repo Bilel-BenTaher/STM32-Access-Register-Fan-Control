@@ -60,7 +60,6 @@ Le code configure le STM32F407VGT6 pour :
 
 ## Vidéo de démonstration
 
-```md
 https://github.com/user-attachments/assets/3541e8af-1954-4dc4-a225-93c6d7668dc4
-```
+
 
